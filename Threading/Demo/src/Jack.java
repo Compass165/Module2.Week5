@@ -5,6 +5,7 @@ public class Jack implements Runnable{
         this.j5 = 5000000;
     }
     public synchronized void nuoiCon() throws InterruptedException {
+//    public void nuoiCon() throws InterruptedException {
         if (j5>0){
             Thread.sleep(1000);
             j5 -= 5000000;
