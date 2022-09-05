@@ -11,6 +11,7 @@ public class Test {
         String cha = scanner.next();
         Shape s1 = shapeFactory.getShape(cha);
         s1.draw();
+
     }
 
 }
